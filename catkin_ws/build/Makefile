@@ -506,6 +506,19 @@ rosgraph_msgs_generate_messages_py/fast:
 .PHONY : rosgraph_msgs_generate_messages_py/fast
 
 #=============================================================================
+# Target rules for targets named test_opencv_camera_capture_node
+
+# Build rule for target.
+test_opencv_camera_capture_node: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 test_opencv_camera_capture_node
+.PHONY : test_opencv_camera_capture_node
+
+# fast build rule for target.
+test_opencv_camera_capture_node/fast:
+	$(MAKE) -f test_opencv/CMakeFiles/test_opencv_camera_capture_node.dir/build.make test_opencv/CMakeFiles/test_opencv_camera_capture_node.dir/build
+.PHONY : test_opencv_camera_capture_node/fast
+
+#=============================================================================
 # Target rules for targets named test_publisher_subscriber_listener_node
 
 # Build rule for target.
@@ -570,6 +583,7 @@ help:
 	@echo "... rosgraph_msgs_generate_messages_lisp"
 	@echo "... roscpp_generate_messages_lisp"
 	@echo "... rosgraph_msgs_generate_messages_py"
+	@echo "... test_opencv_camera_capture_node"
 	@echo "... test_publisher_subscriber_listener_node"
 	@echo "... test_publisher_subscriber_talker_node"
 .PHONY : help

@@ -6,4 +6,5 @@
 # testing this directory and lists subdirectories to be tested as well.
 subdirs("gtest")
 subdirs("blink")
+subdirs("test_opencv")
 subdirs("test_publisher_subscriber")
