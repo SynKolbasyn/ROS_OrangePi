@@ -7,6 +7,10 @@
 /home/orangepi/Documents/ROS/catkin_ws/install/setup.zsh
 /home/orangepi/Documents/ROS/catkin_ws/install/local_setup.zsh
 /home/orangepi/Documents/ROS/catkin_ws/install/.rosinstall
+/home/orangepi/Documents/ROS/catkin_ws/install/lib/pkgconfig/blink.pc
+/home/orangepi/Documents/ROS/catkin_ws/install/share/blink/cmake/blinkConfig.cmake
+/home/orangepi/Documents/ROS/catkin_ws/install/share/blink/cmake/blinkConfig-version.cmake
+/home/orangepi/Documents/ROS/catkin_ws/install/share/blink/package.xml
 /home/orangepi/Documents/ROS/catkin_ws/install/lib/pkgconfig/test_publisher_subscriber.pc
 /home/orangepi/Documents/ROS/catkin_ws/install/share/test_publisher_subscriber/cmake/test_publisher_subscriberConfig.cmake
 /home/orangepi/Documents/ROS/catkin_ws/install/share/test_publisher_subscriber/cmake/test_publisher_subscriberConfig-version.cmake
