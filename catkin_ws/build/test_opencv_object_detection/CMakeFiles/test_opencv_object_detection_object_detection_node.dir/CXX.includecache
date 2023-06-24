@@ -6,12 +6,10 @@
 
 #IncludeRegexTransform: 
 
-/home/orangepi/Documents/ROS/catkin_ws/src/test_opencv/src/camera_capture.cpp
+/home/orangepi/Documents/ROS/catkin_ws/src/test_opencv_object_detection/src/object_detection.cpp
 opencv2/opencv.hpp
 -
 iostream
--
-vector
 -
 
 /usr/include/opencv4/opencv2/calib3d.hpp

@@ -56,6 +56,7 @@ CMAKE_BINARY_DIR = /home/orangepi/Documents/ROS/catkin_ws/build
 all: gtest/all
 all: blink/all
 all: test_opencv/all
+all: test_opencv_object_detection/all
 all: test_publisher_subscriber/all
 
 .PHONY : all
@@ -64,6 +65,7 @@ all: test_publisher_subscriber/all
 preinstall: gtest/preinstall
 preinstall: blink/preinstall
 preinstall: test_opencv/preinstall
+preinstall: test_opencv_object_detection/preinstall
 preinstall: test_publisher_subscriber/preinstall
 
 .PHONY : preinstall
@@ -77,6 +79,7 @@ clean: CMakeFiles/download_extra_data.dir/clean
 clean: gtest/clean
 clean: blink/clean
 clean: test_opencv/clean
+clean: test_opencv_object_detection/clean
 clean: test_publisher_subscriber/clean
 
 .PHONY : clean
@@ -190,6 +193,24 @@ test_opencv/preinstall:
 test_opencv/clean: test_opencv/CMakeFiles/test_opencv_camera_capture_node.dir/clean
 
 .PHONY : test_opencv/clean
+
+#=============================================================================
+# Directory level rules for directory test_opencv_object_detection
+
+# Recursive "all" directory target.
+test_opencv_object_detection/all: test_opencv_object_detection/CMakeFiles/test_opencv_object_detection_object_detection_node.dir/all
+
+.PHONY : test_opencv_object_detection/all
+
+# Recursive "preinstall" directory target.
+test_opencv_object_detection/preinstall:
+
+.PHONY : test_opencv_object_detection/preinstall
+
+# Recursive "clean" directory target.
+test_opencv_object_detection/clean: test_opencv_object_detection/CMakeFiles/test_opencv_object_detection_object_detection_node.dir/clean
+
+.PHONY : test_opencv_object_detection/clean
 
 #=============================================================================
 # Directory level rules for directory test_publisher_subscriber
@@ -984,6 +1005,47 @@ test_opencv/CMakeFiles/test_opencv_camera_capture_node.dir/clean:
 .PHONY : test_opencv/CMakeFiles/test_opencv_camera_capture_node.dir/clean
 
 #=============================================================================
+# Target rules for target test_opencv_object_detection/CMakeFiles/test_opencv_object_detection_object_detection_node.dir
+
+# All Build rule for target.
+test_opencv_object_detection/CMakeFiles/test_opencv_object_detection_object_detection_node.dir/all: blink/CMakeFiles/std_msgs_generate_messages_py.dir/all
+test_opencv_object_detection/CMakeFiles/test_opencv_object_detection_object_detection_node.dir/all: blink/CMakeFiles/std_msgs_generate_messages_nodejs.dir/all
+test_opencv_object_detection/CMakeFiles/test_opencv_object_detection_object_detection_node.dir/all: blink/CMakeFiles/roscpp_generate_messages_cpp.dir/all
+test_opencv_object_detection/CMakeFiles/test_opencv_object_detection_object_detection_node.dir/all: blink/CMakeFiles/roscpp_generate_messages_eus.dir/all
+test_opencv_object_detection/CMakeFiles/test_opencv_object_detection_object_detection_node.dir/all: blink/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/all
+test_opencv_object_detection/CMakeFiles/test_opencv_object_detection_object_detection_node.dir/all: blink/CMakeFiles/std_msgs_generate_messages_lisp.dir/all
+test_opencv_object_detection/CMakeFiles/test_opencv_object_detection_object_detection_node.dir/all: blink/CMakeFiles/roscpp_generate_messages_py.dir/all
+test_opencv_object_detection/CMakeFiles/test_opencv_object_detection_object_detection_node.dir/all: blink/CMakeFiles/std_msgs_generate_messages_eus.dir/all
+test_opencv_object_detection/CMakeFiles/test_opencv_object_detection_object_detection_node.dir/all: blink/CMakeFiles/roscpp_generate_messages_nodejs.dir/all
+test_opencv_object_detection/CMakeFiles/test_opencv_object_detection_object_detection_node.dir/all: blink/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/all
+test_opencv_object_detection/CMakeFiles/test_opencv_object_detection_object_detection_node.dir/all: blink/CMakeFiles/std_msgs_generate_messages_cpp.dir/all
+test_opencv_object_detection/CMakeFiles/test_opencv_object_detection_object_detection_node.dir/all: blink/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/all
+test_opencv_object_detection/CMakeFiles/test_opencv_object_detection_object_detection_node.dir/all: blink/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/all
+test_opencv_object_detection/CMakeFiles/test_opencv_object_detection_object_detection_node.dir/all: blink/CMakeFiles/roscpp_generate_messages_lisp.dir/all
+test_opencv_object_detection/CMakeFiles/test_opencv_object_detection_object_detection_node.dir/all: blink/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/all
+	$(MAKE) -f test_opencv_object_detection/CMakeFiles/test_opencv_object_detection_object_detection_node.dir/build.make test_opencv_object_detection/CMakeFiles/test_opencv_object_detection_object_detection_node.dir/depend
+	$(MAKE) -f test_opencv_object_detection/CMakeFiles/test_opencv_object_detection_object_detection_node.dir/build.make test_opencv_object_detection/CMakeFiles/test_opencv_object_detection_object_detection_node.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/orangepi/Documents/ROS/catkin_ws/build/CMakeFiles --progress-num=15,16 "Built target test_opencv_object_detection_object_detection_node"
+.PHONY : test_opencv_object_detection/CMakeFiles/test_opencv_object_detection_object_detection_node.dir/all
+
+# Build rule for subdir invocation for target.
+test_opencv_object_detection/CMakeFiles/test_opencv_object_detection_object_detection_node.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/orangepi/Documents/ROS/catkin_ws/build/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 test_opencv_object_detection/CMakeFiles/test_opencv_object_detection_object_detection_node.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/orangepi/Documents/ROS/catkin_ws/build/CMakeFiles 0
+.PHONY : test_opencv_object_detection/CMakeFiles/test_opencv_object_detection_object_detection_node.dir/rule
+
+# Convenience name for target.
+test_opencv_object_detection_object_detection_node: test_opencv_object_detection/CMakeFiles/test_opencv_object_detection_object_detection_node.dir/rule
+
+.PHONY : test_opencv_object_detection_object_detection_node
+
+# clean rule for target.
+test_opencv_object_detection/CMakeFiles/test_opencv_object_detection_object_detection_node.dir/clean:
+	$(MAKE) -f test_opencv_object_detection/CMakeFiles/test_opencv_object_detection_object_detection_node.dir/build.make test_opencv_object_detection/CMakeFiles/test_opencv_object_detection_object_detection_node.dir/clean
+.PHONY : test_opencv_object_detection/CMakeFiles/test_opencv_object_detection_object_detection_node.dir/clean
+
+#=============================================================================
 # Target rules for target test_publisher_subscriber/CMakeFiles/test_publisher_subscriber_listener_node.dir
 
 # All Build rule for target.
@@ -1004,7 +1066,7 @@ test_publisher_subscriber/CMakeFiles/test_publisher_subscriber_listener_node.dir
 test_publisher_subscriber/CMakeFiles/test_publisher_subscriber_listener_node.dir/all: blink/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/all
 	$(MAKE) -f test_publisher_subscriber/CMakeFiles/test_publisher_subscriber_listener_node.dir/build.make test_publisher_subscriber/CMakeFiles/test_publisher_subscriber_listener_node.dir/depend
 	$(MAKE) -f test_publisher_subscriber/CMakeFiles/test_publisher_subscriber_listener_node.dir/build.make test_publisher_subscriber/CMakeFiles/test_publisher_subscriber_listener_node.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/orangepi/Documents/ROS/catkin_ws/build/CMakeFiles --progress-num=15,16 "Built target test_publisher_subscriber_listener_node"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/orangepi/Documents/ROS/catkin_ws/build/CMakeFiles --progress-num=17,18 "Built target test_publisher_subscriber_listener_node"
 .PHONY : test_publisher_subscriber/CMakeFiles/test_publisher_subscriber_listener_node.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1045,7 +1107,7 @@ test_publisher_subscriber/CMakeFiles/test_publisher_subscriber_talker_node.dir/a
 test_publisher_subscriber/CMakeFiles/test_publisher_subscriber_talker_node.dir/all: blink/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/all
 	$(MAKE) -f test_publisher_subscriber/CMakeFiles/test_publisher_subscriber_talker_node.dir/build.make test_publisher_subscriber/CMakeFiles/test_publisher_subscriber_talker_node.dir/depend
 	$(MAKE) -f test_publisher_subscriber/CMakeFiles/test_publisher_subscriber_talker_node.dir/build.make test_publisher_subscriber/CMakeFiles/test_publisher_subscriber_talker_node.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/orangepi/Documents/ROS/catkin_ws/build/CMakeFiles --progress-num=17,18 "Built target test_publisher_subscriber_talker_node"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/orangepi/Documents/ROS/catkin_ws/build/CMakeFiles --progress-num=19,20 "Built target test_publisher_subscriber_talker_node"
 .PHONY : test_publisher_subscriber/CMakeFiles/test_publisher_subscriber_talker_node.dir/all
 
 # Build rule for subdir invocation for target.

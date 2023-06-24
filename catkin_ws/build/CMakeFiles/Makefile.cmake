@@ -17,6 +17,8 @@ set(CMAKE_MAKEFILE_DEPENDS
   "catkin_generated/order_packages.cmake"
   "test_opencv/catkin_generated/ordered_paths.cmake"
   "test_opencv/catkin_generated/package.cmake"
+  "test_opencv_object_detection/catkin_generated/ordered_paths.cmake"
+  "test_opencv_object_detection/catkin_generated/package.cmake"
   "test_publisher_subscriber/catkin_generated/ordered_paths.cmake"
   "test_publisher_subscriber/catkin_generated/package.cmake"
   "/home/orangepi/Documents/ROS/catkin_ws/src/CMakeLists.txt"
@@ -24,6 +26,8 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/home/orangepi/Documents/ROS/catkin_ws/src/blink/package.xml"
   "/home/orangepi/Documents/ROS/catkin_ws/src/test_opencv/CMakeLists.txt"
   "/home/orangepi/Documents/ROS/catkin_ws/src/test_opencv/package.xml"
+  "/home/orangepi/Documents/ROS/catkin_ws/src/test_opencv_object_detection/CMakeLists.txt"
+  "/home/orangepi/Documents/ROS/catkin_ws/src/test_opencv_object_detection/package.xml"
   "/home/orangepi/Documents/ROS/catkin_ws/src/test_publisher_subscriber/CMakeLists.txt"
   "/home/orangepi/Documents/ROS/catkin_ws/src/test_publisher_subscriber/package.xml"
   "/opt/ros/noetic/share/catkin/cmake/all.cmake"
@@ -191,6 +195,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "gtest/googletest/CMakeFiles/CMakeDirectoryInformation.cmake"
   "blink/CMakeFiles/CMakeDirectoryInformation.cmake"
   "test_opencv/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "test_opencv_object_detection/CMakeFiles/CMakeDirectoryInformation.cmake"
   "test_publisher_subscriber/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
@@ -223,6 +228,7 @@ set(CMAKE_DEPEND_INFO_FILES
   "blink/CMakeFiles/roscpp_generate_messages_lisp.dir/DependInfo.cmake"
   "blink/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/DependInfo.cmake"
   "test_opencv/CMakeFiles/test_opencv_camera_capture_node.dir/DependInfo.cmake"
+  "test_opencv_object_detection/CMakeFiles/test_opencv_object_detection_object_detection_node.dir/DependInfo.cmake"
   "test_publisher_subscriber/CMakeFiles/test_publisher_subscriber_listener_node.dir/DependInfo.cmake"
   "test_publisher_subscriber/CMakeFiles/test_publisher_subscriber_talker_node.dir/DependInfo.cmake"
   )

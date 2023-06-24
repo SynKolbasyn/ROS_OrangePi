@@ -7,4 +7,5 @@
 subdirs("gtest")
 subdirs("blink")
 subdirs("test_opencv")
+subdirs("test_opencv_object_detection")
 subdirs("test_publisher_subscriber")

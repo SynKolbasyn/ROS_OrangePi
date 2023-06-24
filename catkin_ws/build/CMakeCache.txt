@@ -489,6 +489,12 @@ test_opencv_BINARY_DIR:STATIC=/home/orangepi/Documents/ROS/catkin_ws/build/test_
 test_opencv_SOURCE_DIR:STATIC=/home/orangepi/Documents/ROS/catkin_ws/src/test_opencv
 
 //Value Computed by CMake
+test_opencv_object_detection_BINARY_DIR:STATIC=/home/orangepi/Documents/ROS/catkin_ws/build/test_opencv_object_detection
+
+//Value Computed by CMake
+test_opencv_object_detection_SOURCE_DIR:STATIC=/home/orangepi/Documents/ROS/catkin_ws/src/test_opencv_object_detection
+
+//Value Computed by CMake
 test_publisher_subscriber_BINARY_DIR:STATIC=/home/orangepi/Documents/ROS/catkin_ws/build/test_publisher_subscriber
 
 //Value Computed by CMake
@@ -645,7 +651,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=7
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=8
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

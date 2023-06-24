@@ -1,0 +1,8 @@
+prefix=/home/orangepi/Documents/ROS/catkin_ws/install
+
+Name: test_opencv_object_detection
+Description: Description of test_opencv_object_detection
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

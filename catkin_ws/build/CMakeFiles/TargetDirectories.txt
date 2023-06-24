@@ -67,6 +67,14 @@
 /home/orangepi/Documents/ROS/catkin_ws/build/test_opencv/CMakeFiles/edit_cache.dir
 /home/orangepi/Documents/ROS/catkin_ws/build/test_opencv/CMakeFiles/test.dir
 /home/orangepi/Documents/ROS/catkin_ws/build/test_opencv/CMakeFiles/test_opencv_camera_capture_node.dir
+/home/orangepi/Documents/ROS/catkin_ws/build/test_opencv_object_detection/CMakeFiles/install/strip.dir
+/home/orangepi/Documents/ROS/catkin_ws/build/test_opencv_object_detection/CMakeFiles/install/local.dir
+/home/orangepi/Documents/ROS/catkin_ws/build/test_opencv_object_detection/CMakeFiles/edit_cache.dir
+/home/orangepi/Documents/ROS/catkin_ws/build/test_opencv_object_detection/CMakeFiles/test.dir
+/home/orangepi/Documents/ROS/catkin_ws/build/test_opencv_object_detection/CMakeFiles/install.dir
+/home/orangepi/Documents/ROS/catkin_ws/build/test_opencv_object_detection/CMakeFiles/list_install_components.dir
+/home/orangepi/Documents/ROS/catkin_ws/build/test_opencv_object_detection/CMakeFiles/rebuild_cache.dir
+/home/orangepi/Documents/ROS/catkin_ws/build/test_opencv_object_detection/CMakeFiles/test_opencv_object_detection_object_detection_node.dir
 /home/orangepi/Documents/ROS/catkin_ws/build/test_publisher_subscriber/CMakeFiles/install/strip.dir
 /home/orangepi/Documents/ROS/catkin_ws/build/test_publisher_subscriber/CMakeFiles/install/local.dir
 /home/orangepi/Documents/ROS/catkin_ws/build/test_publisher_subscriber/CMakeFiles/install.dir

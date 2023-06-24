@@ -133,6 +133,7 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   include("/home/orangepi/Documents/ROS/catkin_ws/build/gtest/cmake_install.cmake")
   include("/home/orangepi/Documents/ROS/catkin_ws/build/blink/cmake_install.cmake")
   include("/home/orangepi/Documents/ROS/catkin_ws/build/test_opencv/cmake_install.cmake")
+  include("/home/orangepi/Documents/ROS/catkin_ws/build/test_opencv_object_detection/cmake_install.cmake")
   include("/home/orangepi/Documents/ROS/catkin_ws/build/test_publisher_subscriber/cmake_install.cmake")
 
 endif()
